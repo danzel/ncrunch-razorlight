@@ -1,0 +1,13 @@
+﻿@* Enable Intellisense support. See https://github.com/toddams/RazorLight/tree/precompile#enable-intellisense-support *@
+@using RazorLight
+@inherits TemplatePage<TestFail.Templates.EmailModel>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email Title</title>
+</head>
+<body>
+	<p>Hi,</p>
+	Heading: @Model.Heading
+</body>
